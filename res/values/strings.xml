@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    
+    <!-- Label for overflow menu option that deletes all items in the app -->
+    <string name="action_delete_all_entries">Delete All Items</string>
+
+    <!-- Title to add a new item -->
+    <string name="editor_activity_new_item">Add an Item</string>
+
+    <!-- Title to edit an existing item -->
+    <string name="editor_activity_edit_item">Edit Item</string>
+
+    <!-- Label for editor menu option to save the item and leave the editor -->
+    <string name="action_add">Add</string>
+
+    <!-- Label for editor overflow menu option that deletes the current item -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for details category in the editor -->
+    <string name="details_category">Details</string>
+
+    <!-- Text hint for name field in the editor -->
+    <string name="item_name">Name</string>
+
+    <!-- Text for the increment button for quantity -->
+    <string name="increment_button">+</string>
+
+    <!-- Text for the decrement button for quantity -->
+    <string name="decrement_button">-</string>
+
+    <!-- Text hint for breed field in the editor -->
+    <string name="item_quantity">Quantity</string>
+
+    <!-- Text hint for name field in the editor -->
+    <string name="item_price">Price</string>
+
+    <!-- Toast message in editor when new item has been added successfully -->
+    <string name="editor_insert_item_successful">Item added</string>
+
+    <!-- Toast message in editor when an existing item has been successfully updated -->
+    <string name="editor_item_updated">Item updated</string>
+
+    <!-- Toast message in editor when an existing item failed to update -->
+    <string name="editor_update_item_failed">Error with updating item</string>
+
+    <!-- Toast message in editor when new item has failed to be added -->
+    <string name="editor_insert_item_failed">Error with saving item</string>
+
+    <!-- Title text for the empty view -->
+    <string name="empty_view_title_text">This place looks a bit empty…</string>
+
+    <!-- Subtitle text for empty view prompting the user to input data -->
+    <string name="empty_view_subtitle_text">Get started by adding an item</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current item -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current item was successfully deleted -->
+    <string name="editor_delete_item_successful">Item deleted</string>
+
+    <!-- Toast message in editor when current item has failed to be deleted -->
+    <string name="editor_delete_item_failed">Error with deleting item</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item -->
+    <string name="delete_dialog_msg">Delete this item?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current item -->
+    <string name="confirm_delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current item -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Dialog button text for the option to simulate an item entry -->
+    <string name="generate_item">Generate Item</string>
+
+    <!-- Icon to represent the price in U.S. currency -->
+    <string name="price_dollar_sign">$</string>
+
+    <!-- Text for the quantity in stock on the list view -->
+    <string name="quantity_in_stock">In Stock:</string>
+
+    <!-- Text for the order button in the item detail editor -->
+    <string name="order_button">Order More</string>
+
+    <!-- Text for the sale button in the list_item.xml -->
+    <string name="sale_button">Sale</string>
+
+    <!-- Text for the edit button in the list_item.xml -->
+    <string name="edit_button">Edit</string>
+
+    <!-- Text for the add photo button in the list_item.xml -->
+    <string name="add_photo_button">Add Photo</string>
+</resources>

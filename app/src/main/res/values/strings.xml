@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Inventory</string>
+
+    <!-- Label for overflow menu option that inserts fake item data into the app -->
+    <string name="action_generate_data">Generate Data</string>
+
+    <!-- Label for overflow menu option that deletes all item data in the app  -->
+    <string name="action_delete_all_entries">Delete All Items</string>
+
+    <!-- Title for the activity to add a new item  -->
+    <string name="detail_activity_title_new_item">Add Item</string>
+
+    <!-- Title for the activity to edit an existing item -->
+    <string name="detail_activity_title_edit_item">Edit Item</string>
+
+    <!-- Label for details menu option to save item and leave details screen  -->
+    <string name="action_add">Save Item</string>
+
+    <!-- Hint for the supply order quantity -->
+    <string name="order_hint">Order Quantity</string>
+
+    <!-- Hint telling to user how to add photos of the item -->
+    <string name="add_image_hint">Click to Add Photo</string>
+
+    <!-- Label for details overflow menu option that deletes the current item -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for details category in the details screen -->
+    <string name="inventory_details">Details</string>
+
+    <!-- Text hint for name field in the details screen  -->
+    <string name="hint_item_name">Name</string>
+
+    <!-- Text hint for quantity field in the details screen -->
+    <string name="hint_item_quantity">Quantity</string>
+
+    <!-- Text hint for price field in the details screen  -->
+    <string name="hint_item_price">Price</string>
+
+    <!-- Title for the "Add Photo" button -->
+    <string name="add_photo">Add Photo</string>
+
+    <!-- Title for the order button in the details screen -->
+    <string name="order_more">Order More</string>
+
+    <!-- Title for the sale button in the list item -->
+    <string name="sale_item">Sale</string>
+
+    <!-- U.S. dollar sign for the price input -->
+    <string name="dollar_sign">$</string>
+
+    <!-- Text for the increment button for quantity -->
+    <string name="increment_button">+</string>
+
+    <!-- Text for the decrement button for quantity -->
+    <string name="decrement_button">-</string>
+
+    <!-- Text for the supplier's name input -->
+    <string name="supplier_name">Supplier\'s Name</string>
+
+    <!-- Toast message in the details screen when new item has been successfully inserted -->
+    <string name="details_insert_item_successful">Item added</string>
+
+    <!-- Toast message in details screen when an existing item has been successfully updated -->
+    <string name="details_item_updated">Item updated</string>
+
+    <!-- Toast message in details screen when an existing item has failed to be updated -->
+    <string name="details_update_item_failed">Error with updating item</string>
+
+    <!-- Toast message in details screen when new item has failed to be inserted -->
+    <string name="details_insert_item_failed">Error with adding item</string>
+
+    <!-- Title text for the empty view -->
+    <string name="empty_view_title_text">This place looks a bit empty…</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add an item -->
+    <string name="empty_view_subtitle_text">Start stocking by adding an item.</string>
+
+    <!-- Dialog message when user is leaving details screen but hasn't saved changes -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current item -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in details screen when current item was successfully deleted -->
+    <string name="details_delete_item_successful">Item deleted</string>
+
+    <!-- Toast message in details screen when current item has failed to be deleted -->
+    <string name="details_delete_item_failed">Error with deleting item</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item -->
+    <string name="delete_dialog_msg">Delete this item?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current item -->
+    <string name="delete">Delete Item</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current item -->
+    <string name="cancel">Cancel</string>
+</resources>
